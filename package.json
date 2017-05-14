@@ -1,0 +1,22 @@
+{
+  "name": "sierpinski-triangle",
+  "version": "0.0.1",
+  "description": "Create Sierpinski triangles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikv/sierpinski-triangle.git"
+  },
+  "keywords": [
+    "3d"
+  ],
+  "author": "pratikv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratikv/sierpinski-triangle/issues"
+  },
+  "homepage": "https://github.com/pratikv/sierpinski-triangle#readme"
+}
