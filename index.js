@@ -53,7 +53,7 @@ function createTriangle(pA, pB, pC, depth, pts, sz) {
  * @param pB {Array} The second point of the triangle
  * @param pC {Array} The third point of the triangle
  * @param depth {number} The depth of the Sierpinski gasket
- * @param sz {2|3|4} The size of the vertex to be generated. If, 3 or 4 is provided, each vertex will be appened by 0,1 respectively
+ * @param sz {2|3|4} The size of the vertex to be generated. If, 3 or 4 is provided, each vertex will be appened by 0,1 respectively. If not provided, default value is 2.
  * @return {pts:Array, cnt:number} Returns the Points as a single array and the number of points generated.
  */
 function sierpinskiTriangle(pA, pB, pC, depth, sz) {
