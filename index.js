@@ -56,7 +56,7 @@ function createTriangle(pA, pB, pC, depth, pts, sz) {
  * @param sz {2|3|4} The size of the vertex to be generated. If, 3 or 4 is provided, each vertex will be appened by 0,1 respectively. If not provided, default value is 2.
  * @return {pts:Array, cnt:number} Returns the Points as a single array and the number of points generated.
  */
-function sierpinskiTriangle(pA, pB, pC, depth, sz) {
+export default function sierpinskiTriangle(pA, pB, pC, depth, sz) {
     if (!sz)
         sz = 2;
     sz = Math.floor(sz);
@@ -71,5 +71,3 @@ function sierpinskiTriangle(pA, pB, pC, depth, sz) {
     var vcnt = pts.length / sz;
     return { pts: pts, cnt: vcnt };
 };
-
-module.exports = sierpinskiTriangle = sierpinskiTriangle;
